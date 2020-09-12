@@ -1,6 +1,6 @@
 {
-  "name": "@nandorojo/swr-firestore",
-  "version": "0.10.2",
+  "name": "swr-firestore-react-native",
+  "version": "0.10.4",
   "description": "SWR React hooks for Firestore, that you can actually use in production, on every screen.",
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
@@ -25,8 +25,7 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/nandorojo/swr-firestore",
-  "author": "Fernando Rojo <frojo@sas.upenn.edu> (https://github.com/nandorojo)",
+  "author": "Fernando Rojo & LG",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nandorojo/swr-firestore/issues"
@@ -104,9 +103,7 @@
   },
   "dependencies": {
     "@react-native-firebase/app": "^8.3.1",
-    "@react-native-firebase/auth": "^9.0.0",
     "@react-native-firebase/firestore": "^7.5.3",
-    "@react-native-firebase/functions": "^7.3.2",
     "lodash.get": "^4.4.2",
     "lodash.set": "^4.3.2",
     "swr": "^0.2.0"

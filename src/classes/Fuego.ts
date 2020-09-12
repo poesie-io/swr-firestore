@@ -25,15 +25,16 @@ export class Fuego {
     if(config.useNativeDriver){
       // @ts-ignore
       const admin =  !ReactNativeFirebase.apps.length
+      // @ts-ignore
       ? ReactNativeFirebase.initializeApp(config)
       : ReactNativeFirebase.app()
 
       // @ts-ignore
       this.db = firestore()
       // @ts-ignore
-      this.auth = auth()
+      this.auth = auth
       // @ts-ignore
-      this.functions = functions()
+      this.functions = functions
 
     } else {
       this.db = !firebase.apps.length
